@@ -1,0 +1,48 @@
+Colin's Message:
+  Collaboration, reproducibility and productization are some of the issues with
+  Jupyter. My process is to split the job into smaller tasks, and have code for
+  each that is separate.  I usually start in Jupyter, and then transition to an
+  IDE as things get stable.  That allows me to reuse things and avoid merge
+  conflicts.
+
+  To be explicit, a workflow might be:
+  - start a jupyter called "project research.ipynb".  This is basically a
+    research notebook full of garbage.  I don't put it on github, and often keep
+    it in its own folder.
+  - once I get something good, create "project_step1.py" that has functions in
+    it.
+  - Create a jupyter notebook called "project_step1_documentation.ipynb" that
+    has unit tests and details.  This is never used in production, but is used
+    to test changes before release (QA).
+  - Create a jupyter notebook called "project.ipynb" that has
+    "import project_step1.py" in it.  This is the core for local testing.
+    Eventually I might replace this outer controller with an API or whatever.
+
+  Again, this is a common problem.  Branch based development can help too, but
+  is probably heavier than you need.  Code collaboration tools still need work.
+
+
+Workflow Plan:
+  1. Do research and trial coding in a test/research jupyter notebook that will
+     not be included in the github.
+  2. Once a code is running and is something that could be used, put it in a
+     python file (.py) that has working functions and edit with an IDE.
+  3. Create a jupyter notebook that displays and has documentation for the new
+     python file made in step 2. This is not used in production, but helps
+     display what is happening in the code and helps test possible changes.
+  4. For local testing, create a final jupyter notebook where you import the
+     python file created in step 2 using "import file_name.py". You can display
+     the final product with this jupyter notebook.
+  5. (Optional) Use an API instead of the python file created in step 2.
+  6. Make a website through github displaying my product.
+
+
+Github Help:
+  1. If you want to work on a jupyter file, in the top right of the main
+     repository you can download everything as a zip file and unzip it. Then,
+     edit the file and add it to the github next to the old file, but with one
+     higher version number. If it is approved, the last version will be deleted.
+
+
+Tasks To Do (Delete Task After Completion):
+  1. Figure out how to web scrape off of surfline.
