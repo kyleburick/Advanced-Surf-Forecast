@@ -37,11 +37,13 @@ Workflow Plan:
   6. Make a website through github displaying my product.
 
 
-Github Help:
+Github Help/Guidelines:
   1. If you want to work on a jupyter file, in the top right of the main
      repository you can download everything as a zip file and unzip it. Then,
      edit the file and add it to the github next to the old file, but with one
      higher version number. If it is approved, the last version will be deleted.
+  2. When making a committ make sure to give a descriptive committ name and add 
+     an extended description if needed.
 
 
 Tasks To Do (Delete Task After Completion):
