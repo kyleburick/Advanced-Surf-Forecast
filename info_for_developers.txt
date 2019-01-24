@@ -44,7 +44,3 @@ Github Help/Guidelines:
      higher version number. If it is approved, the last version will be deleted.
   2. When making a committ make sure to give a descriptive committ name and add 
      an extended description if needed.
-
-
-Tasks To Do (Delete Task After Completion):
-  1. Figure out how to web scrape off of surfline.
