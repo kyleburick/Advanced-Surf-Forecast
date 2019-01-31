@@ -44,3 +44,5 @@ Github Help/Guidelines:
      higher version number. If it is approved, the last version will be deleted.
   2. When making a committ make sure to give a descriptive committ name and add 
      an extended description if needed.
+  3. https://guides.github.com/features/wikis/
+         - This is a guide for documenting your github projects
