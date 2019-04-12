@@ -1,6 +1,6 @@
 # Our Mission
 
-The Advanced Surf Forecast project, as of now, is intended to be a tool for a select few surfers to more easily and more accurately plan their surfing life. We are making this tool because after a lifetime of surfing we can tell that it would be of great utility to us. It takes some work planning out where a swell is going to hit best and making sure that you don't get skunked when you travel in pursuit of it. Lets make some computers do it for us!
+The Advanced Surf Forecast project, as of now, is intended to be a tool for a select few surfers to more easily and more accurately plan their surfing life. As life-long surfers constantly searching for the best swells and traveling to intercept them, we can tell that it would be of great utility to us. It takes some work planning out where a swell is going to hit best and making sure that you don't get skunked when you travel in pursuit of it. Lets make some computers do it for us!
 
 ## Part 1
 
